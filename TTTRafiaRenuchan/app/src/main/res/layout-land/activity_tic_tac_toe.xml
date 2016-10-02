@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tic_tac_toe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="game.assignment.dawson.tttrafiarenuchan.TicTacToe"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="700dp"
+        android:layout_height="130dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout1"
+        >
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton0"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="700dp"
+        android:layout_height="130dp"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton3"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:layout_below="@+id/imageButton0"
+            android:background="@color/black"
+
+            />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton4"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:layout_below="@+id/imageButton1"
+            android:background="@color/black"
+
+            />
+        />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton5"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:layout_below="@+id/imageButton2"
+            android:background="@color/black"
+
+            />
+        />
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/linearLayout3"
+        android:orientation="horizontal"
+        android:layout_width="700dp"
+        android:layout_height="130dp"
+        android:weightSum="1"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton6"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+        />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton7"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+        />
+
+        <ImageButton
+            android:layout_width="233dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton8"
+            android:layout_weight="0.32"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pic3"
+            android:background="@color/black"
+            />
+        />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pVsAi"
+        android:id="@+id/vsLbl"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Reset"
+        android:id="@+id/button0"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_toEndOf="@+id/linearLayout1"
+        android:layout_marginLeft="5dp"
+        android:onClick="onReset"
+        android:textSize="18dp"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/playBtn"
+        android:id="@+id/button4"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_below="@+id/button3"
+        android:layout_toEndOf="@+id/linearLayout1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onPlay"
+        android:textSize="18dp"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/scoreBtn"
+        android:id="@+id/button3"
+        android:layout_gravity="bottom"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_below="@+id/button2"
+        android:layout_toEndOf="@+id/linearLayout1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onScore"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/zeroBtn"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_below="@+id/button1"
+        android:layout_toEndOf="@+id/linearLayout1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onZero"
+        android:textSize="18dp"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="About"
+        android:id="@+id/button1"
+        android:layout_gravity="bottom"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_below="@+id/button0"
+        android:layout_toEndOf="@+id/linearLayout1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onAbout"
+        android:textSize="18dp"
+
+        />
+
+
+
+    <![CDATA[
+        />
+     ]]>
+
+</RelativeLayout>

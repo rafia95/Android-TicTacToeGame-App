@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TTTRafiaRenuchan</string>
+
+    <string name="resetBtn">Reset</string>
+    <string name="aboutBtn">About</string>
+    <string name="zeroBtn">Zero</string>
+    <string name="scoreBtn">Score</string>
+    <string name="playBtn">Play</string>
+
+    <string name="pVsAi">You are playing against a droid</string>
+    <string name="pVp">You are playing against a person</string>
+
+    <string name="p1WinMsg">Player 1 You Won</string>
+    <string name="p1LoseMsg">Player 2 You Won</string>
+    <string name="gameTie">Tied Game</string>
+
+    <string name="scorePlayer1Lbl">Player One</string>
+    <string name="scorePlayer2Lbl">Player Two</string>
+    <string name="scoreWins">Wins: </string>
+    <string name="scoreLoses">Loses: </string>
+    <string name="scoreTies">Ties: </string>
+
+
+    <string name="header1"> How To Play </string>
+    <string name="aboutInfo"> Welcome to Tic Tac Toe, click on the square to set your move </string>
+
+    <string name="btnDes">Press, Reset to restart a game. Zero to reset win and losses. Scores to view wins and loses.
+                            Play to reset and toggle between Droid and a real player. </string>
+
+    <string name="header2"> Written by </string>
+    <string name="authorsDes"> Renuchan and Rafia, Dawson College </string>
+
+</resources>

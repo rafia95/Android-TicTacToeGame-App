@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TTTRafiaRenuchan</string>
+
+    <string name="resetBtn">Remettre</string>
+    <string name="aboutBtn">Info</string>
+    <string name="zeroBtn">Zéro</string>
+    <string name="scoreBtn">But</string>
+    <string name="playBtn">Joue</string>
+
+    <string name="pVsAi">Vous jouez contre un ordinateur</string>
+    <string name="pVp">Vous jouez contre un personne</string>
+
+    <string name="p1WinMsg">Joueur 1 gagné</string>
+    <string name="p1LoseMsg">Joueur 2 gagné</string>
+    <string name="gameTie">Joue Null</string>
+
+    <string name="scorePlayer1Lbl">Joueur Un</string>
+    <string name="scorePlayer2Lbl">Joueur Deux</string>
+    <string name="scoreWins">Victoires: </string>
+    <string name="scoreLoses">Perd: </string>
+    <string name="scoreTies"> Égal: </string>
+
+
+    <string name="header1"> Instructions</string>
+    <string name="aboutInfo"> Bienvenue sur Tic Tac Toe, cliquez sur le carré pour choisir votre déménagement</string>
+
+    <string name="btnDes">Cliquez, Remettre pour recommencer la joue. Zéro pour mettre tous les but à 0. But pour voir les buts.
+                            Joue pour jouer avec un ordinateur ou avec quelqun. Info pout lire les instructions </string>
+
+    <string name="header2"> Écrit par </string>
+    <string name="authorsDes"> Renuchan et Rafia, Dawson College </string>
+
+</resources>
