@@ -9,8 +9,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/black"
-    tools:context="game.assignment.dawson.tttrafiarenuchan.aboutActivity"
-    >
+
+    tools:context="game.assignment.dawson.tttrafiarenuchan.aboutActivity">
 
 
     <TextView
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="70dp"
         android:id="@+id/textView2"
         android:textSize="30dp"
         android:textColor="@color/green"
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView3"
         android:layout_alignStart="@+id/textView3"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/textView4"
         android:textSize="30dp"
         android:textColor="@color/green"
@@ -57,7 +57,7 @@
         android:text="@string/btnDes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_alignStart="@+id/textView2"
@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
         android:layout_alignStart="@+id/textView4"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="21dp"
         android:id="@+id/textView10"
         android:textSize="30dp"
         android:textColor="@color/green"
